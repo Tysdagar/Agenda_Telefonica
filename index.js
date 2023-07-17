@@ -1,5 +1,4 @@
 /*eslint linebreak-style: ["error", "windows"]*/
-
 const express = require("express");
 const session = require("express-session");
 const app = express();
@@ -10,6 +9,8 @@ const cors = require("cors");
 let users = getUsers();
 
 let persons = getPersons();
+
+app.use(express.static("dist"));
 
 // Configuración de sesiones
 app.use(
