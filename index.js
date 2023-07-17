@@ -4,7 +4,7 @@ const express = require("express");
 const session = require("express-session");
 const app = express();
 const getPersons = require("./mocks/persons.mock");
-const getUsers = require("../eventos/pruebas_backend/users");
+const getUsers = require("./mocks/users.mocks");
 const cors = require("cors");
 
 let users = getUsers();
