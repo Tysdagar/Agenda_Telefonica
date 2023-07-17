@@ -45,6 +45,10 @@ const checkLoginMiddleware = (req, res, next) => {
 
 // Configuración de sesiones
 
+app.get("/login", (req, res) => {
+  res.sendFile(__dirname + "/dist/index.html");
+});
+
 app.post("/login", (request, response) => {
   const { username, password } = request.body;
 
