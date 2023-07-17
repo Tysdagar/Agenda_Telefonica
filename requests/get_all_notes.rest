@@ -1,0 +1,22 @@
+ 
+GET http://localhost:3001/api/notes
+
+###
+
+DELETE http://localhost:3001/api/info/3
+
+###
+
+
+GET http://localhost:3001/api/info/3
+
+
+###
+
+POST http://localhost:3001/api/info
+Content-Type: application/json
+
+{
+    "content": "xddd",
+    "important": true
+}
