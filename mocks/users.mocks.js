@@ -1,6 +1,6 @@
 /*eslint linebreak-style: ["error", "windows"]*/
 const users = [
-  { username: "ronca", password: "sebastian" },
+  { username: "user1", password: "password1" },
   { username: "user2", password: "password2" },
   // ...
 ];
